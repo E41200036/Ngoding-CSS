@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenis selector</title>
+    <!-- jenis selector  -->
+    
+    <style>
+        /* 1. universal selector */
+        /* akan mengubah semua style elemen yang ada pada halaman */
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* tag selector */
+        /* hanya akan mengubah tag tertentu */
+        h1 {
+            color: red;
+        }
+        /* class Selector */
+        /* mengubah eleement class tertentu */
+        .nama {
+            font-weight: bold;
+        }
+        /* id selector */
+        #ibnu {
+            background-color: aqua;
+        }
+        /* attribut selector */
+        [type="checkbox"] {
+            border: none;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hei</h1>
+    <p class="nama">Nama saya ibnu</p>
+    <ol>
+        <li id="ibnu">ibnu</li>
+        <li>jenis</li>
+    </ol>
+    <input type="checkbox" name="hobi" id="hobi">
+
+    <!-- 
+        Selain kelima selector dasar diatas, CSS masih memiliki selector yang lebih ‘jauh‘ dalam memilih tag yang akan dimanipulasi, salah satu contohnya, seperti pseudo selector yang digunakan untuk tiap event dari link, atau dikenal dengan efek mouseover, yaitu kita mencari kondisi pada saat mouse berada di atas tag tertentu. Pseudo Selector ini akan kita bahas pada lain kesempatan.
+     -->
+</body>
+</html>

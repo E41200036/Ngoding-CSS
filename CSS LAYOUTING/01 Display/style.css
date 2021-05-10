@@ -1,0 +1,29 @@
+/* 
+    display : mengatur perilaku pada kotak
+
+    value pada display :
+    
+    inline : 
+    1. tidak menambahkan baris baru ketika dibuat
+    2. lebar dan tinggi sebesar konten
+    3. tidak dapat mengatur tinggi dan lebar element inline
+    4. margin dan padding hanya mempengaruhi elemen secara horizontal, tidak secara vertikal
+
+    inline-block :
+    1. perilaku dasarnya seperti inline
+    2. inline-block dapat diatur tinggi dan lebarnya
+
+    block :
+    1. menambahkan baris baru ketika elemen dibuat
+    2. jika tidak diatur lebarnya, maka default lebarnya akan memenuhi browser
+    3. harus diatur lebar dan tingginya
+
+    none : untuk menghilangkan sebuah element
+
+
+    div : display default - block
+    span : display default - inline
+*/
+.navigasi ul li {
+    display: inline-block;
+}

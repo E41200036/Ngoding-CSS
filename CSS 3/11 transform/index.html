@@ -1,0 +1,44 @@
+<!-- 
+    untuk memanipulasi elemen
+    kamu bisa menggunakan property {transform : <fungsi>}
+        jenis fungsi : 
+            - scale : untuk mengubah ukuran elemen
+            - rotate : untuk memutar element
+            - scew : untuk memiringkan elemtn
+            - translate : untuk mengubah posisi
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Transform</title>
+     <style>
+         .kotak {
+             width: 100px;
+             height: 100px;
+             margin: 50px auto;
+             background-color: crimson;
+        }
+         .kotak:hover {
+            /* scale: scaleX(angka) scaleY(angka); */
+            /* transform: scaleX(1.5) scaleY(1.2); */
+
+            /* rotate: rotateX(angka) rotateY(angka); */
+            /* transform: rotate(-40deg); */
+
+            /* skew: skewX(angka) skewY(angka); */
+            /* transform: skew(45deg); */
+
+            /* translate: translateX(angka) translateY(angka); */
+            transform: translate(100px, -100px);
+            transition: 1s;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="kotak"></div>
+ </body>
+ </html>

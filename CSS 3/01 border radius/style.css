@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+.kotak1 {
+    background-color: chocolate;
+    border-top-left-radius: 50px;
+}
+
+.kotak2 {
+    background-color: crimson;
+    border-top-right-radius: 50px;
+}
+
+.kotak3 {
+    background-color: aquamarine;
+    border-bottom-left-radius: 50px;
+}
+
+.kotak4 {
+    background-color: yellowgreen;
+    border-bottom-right-radius: 50px;
+}
+
+.lingkaran {
+    background-color: violet;
+    border-radius: 50%;
+}
+
+.setengah-lingkaran {
+    background-color: coral;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}

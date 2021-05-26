@@ -1,0 +1,42 @@
+.cf:after, .cf:before {
+    display: table;
+    content: " ";
+}
+.cf:after {
+    clear: both;
+}
+.container {
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    margin: 30px auto;
+    border: 5px solid #333;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
+    /* align-content: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    color: white;
+    /* text-align: center; */
+    /* line-height: 100px; */
+    margin: 5px;
+}
+.container div.satu { order: 4; }
+.container div.dua { order: 2; }
+.container div.tiga { order: 3; }
+
+.container div.satu {
+    flex: 1;
+}

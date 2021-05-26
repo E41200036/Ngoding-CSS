@@ -1,0 +1,26 @@
+.container {
+    background-color: beige;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container div.tiga {
+    align-self: center;
+}
+
+.container div.satu {
+    align-self: flex-end;
+}

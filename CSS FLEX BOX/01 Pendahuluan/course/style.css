@@ -1,0 +1,61 @@
+/* 
+    PROPERTY PADA CONTAINER
+ 1. memberi nilai display : flex
+    untuk membuat elemen diddlam container menjadi flex
+ 2. flex-direction : row | row-reverse | column | column-reverse
+    untuk mengatur arah / urutan dari items di dalam container
+ 3. flex-wrap : nowrap | wrap | wrap-reverse;
+    untuk mengatur items agar menyesuaikan lebar container
+ 4. justify-content : 
+    mengatur jarak antar item dengan horizontal
+ 5. align-item : mengatur kesejajaran item dengan vertikal
+ 6. align-content : mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris)
+*/
+/* PROPERTY PADA ITEM */
+/* 
+    order : mengatur urutan item
+    semakin besar nilai ordernya maka item akan memaksakan untuk berada pada posisi kanan
+
+    flex : untuk mengatur lebar item
+    align-self : untuk mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis
+*/
+
+
+.cf:before, .cf:after {
+    display: table;
+    content: " ";
+}
+.cf:after {
+    clear: both;
+}
+.container {
+    width: 600px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    height: 200px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* align-items: stretch; */
+    /* justify-content: center; */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+}
+
+.container div {
+    background-color: lightblue;
+    margin: 2px;
+    flex-grow: 1;
+    /* float: left; */
+}
+.container div.dua {
+    flex: 3;
+    align-self: flex-start;
+}
+
+/* .satu { order: 3;}
+.dua { order: 1;}
+.tiga { order: 4;} */

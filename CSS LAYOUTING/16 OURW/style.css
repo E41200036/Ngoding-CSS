@@ -276,7 +276,6 @@ label.stuju {
 .footer {
     background-color: #333;
     width: 800px;
-    bottom: 0;
     padding: 10px;
     text-align: center;
     box-sizing: border-box;

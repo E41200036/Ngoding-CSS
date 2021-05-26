@@ -1,0 +1,62 @@
+.cf:before, .cf:after {
+    display: table;
+    content: " ";
+}
+.cf:after {
+    clear: both;
+}
+.container {
+    width: 500px;
+    /* height: 200px; */
+    margin: 30px auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+    padding: 2px;
+
+    /* property pada container */
+    display: flex;
+    /* mengubah tampilan menjadi kolom */
+    /* flex-direction: column; */
+    /* mengubah tampilan menjadi kolom terbalik*/
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* mengatur posisi item agar sesuai lebar container */
+    /* flex-wrap: wrap; */
+    /* mengatur posisi item agar sesuai lebar container (secara terbalik) */
+    /* flex-wrap: wrap-reverse; */
+    /* mengatur posisi items agar berada di tengah */
+    /* justify-content: space-evenly; */
+    /* mengatur posisi items agar berada di akhir container */
+    /* justify-content: flex-end; */
+    /* mengatur posisi item secara vertikal (tengah)*/
+    /* align-items: center; */
+    /* mengatur posisi item secara vertikal (bawah)*/
+    /* align-items: flex-end; */
+    /* mengatur jarak antar item terhadap cross exis (berlaku hanya ketika item lebih dari 1 baris*/
+    flex-wrap: wrap;
+    /* height: 400px;
+    align-content: flex-start; */
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(153, 41, 0);
+    margin: 2px;
+    /* PROPERTTY PADA ITEM */
+    /* flex-grow: 1; */
+}
+
+/* order : mengatur urutan posisi item */
+/* flex : mengatur lebar dari item*/
+.container div.satu {
+    /* order: 1; */
+    flex: 1;
+}
+.container div.dua {
+    flex: 3;
+}
+.container div.tiga {
+    flex: 8;
+}

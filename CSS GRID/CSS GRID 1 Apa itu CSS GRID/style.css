@@ -1,0 +1,63 @@
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 3px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+	color: white;
+}
+/* header */
+div.header {
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	background-color: rgb(180, 62, 180);
+	text-align: center;
+}
+/* sidebar */
+div.sidebar {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+/* aside */
+.sidebar aside {
+	background-color: rgb(38, 137, 218);
+	height: 200px;
+	line-height: 200px;
+}
+/* nav */
+.sidebar nav {
+	background-color: rgb(247, 74, 44);
+	height: 300px;
+	line-height: 300px;
+}
+/* main */
+div.main {
+	float: left;
+	width: 60%;
+	height: 500px;
+	line-height: 500px;
+	text-align: center;
+	background-color: goldenrod;
+}
+.clear {
+	clear: left;
+}
+/* footer */
+footer {
+	background-color: grey;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+}

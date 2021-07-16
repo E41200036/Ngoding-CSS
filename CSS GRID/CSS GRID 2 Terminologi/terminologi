@@ -1,0 +1,20 @@
+grid container :
+"element pembungkus grid, didefinisikan dengan 
+menuliskan :
+display: grid;
+
+grid item : element element yang berada 1 level
+di dalam grid container
+
+grid line : garis horizontal aau vertikal yang
+memisahkan beberapa bagian yang ditandai dengan angka
+
+grid cell : perpotongan antara baris dan kolom
+
+grid area : kumpulan lebih dari 1 grid cell yang membentuk
+kotak
+
+grid track : ukuran / jarak antara grid line. 
+atau ukuran  grid cell
+
+grid gap : jarak antara cell
